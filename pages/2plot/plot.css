@@ -1,0 +1,87 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCCC99;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: black;
+}
+/* --------------------------------------- */
+.header {
+	background-image: url(../../img/background/back-second.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: auto;
+	text-align: center;
+}
+.header h3{
+	font-size: 60px;
+	padding-top: 60px;
+}
+.header h3, p, div{
+	margin-bottom: 25px;
+}
+.header p{
+	font-size: 20px;
+}
+.header div a{
+	margin: 0px 4px;
+}
+/* --------------------------------------- */
+.content {
+	height: auto;
+	background-image: url(../../img/background/library2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+	/* display: flex; */
+}
+.content div img {
+	width: 200px;
+}
+.content .content-text{
+	margin: auto;
+	width: 1000px;
+	text-align: left;
+}
+.content .content-text h3{
+	margin: 20px 0 20px 0;
+}
+.content .content-text ul li ol{
+	margin-left: 45px;
+}
+.content .content-text div h3 img{
+	width: 700px; 
+	height: 2px;
+}
+.content .content-text .content-text-el{
+	margin: 20px 0 20px 0;
+}
+.content .content-text div p{
+	text-indent: 25px;
+	text-align: justify;
+}
+.content .content-text div p img{
+	width: 400px;
+	float: right;
+	margin: 10px;
+	border: 3px solid ;
+}	
+
+/* --------------------------------------- */
+.footer {
+	height: auto;
+	text-align: center;
+}
+.footer div{
+	justify-content: center;
+	margin: 20px;
+	font-size: 12px;
+	column-gap: 12px;
+	margin: 10px ;
+	padding: 0;
+}
+.footer div p{
+	margin: 0px;
+}

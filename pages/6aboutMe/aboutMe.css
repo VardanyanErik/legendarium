@@ -1,0 +1,80 @@
+* {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #CCCC99;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-color: black;
+}
+/* --------------------------------------- */
+.header {
+	background-image: url(../../img/background/back-second.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: auto;
+	text-align: center;
+}
+.header h3{
+	font-size: 60px;
+	padding-top: 60px;
+}
+.header h3, p, div{
+	margin-bottom: 25px;
+}
+.header div a{
+	margin: 0px 4px;
+}
+/* --------------------------------------- */
+.content {
+	height: auto;
+	background-image: url(../../img/background/about.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+	display: flex;
+}
+.content div img {
+	width: 200px;
+}
+.content .content-text{
+	margin: auto;
+	width: 1000px;
+	/* text-align: left; */
+}	
+.content .content-text h4{
+	margin-bottom: 20px;
+}
+.content .content-text p {
+	text-indent: 25px;
+	text-align: justify;
+	line-height: 1.5;
+}
+.content .content-text img {
+	width: 700px;
+	height: auto;
+    opacity: 40%;
+	border: 3px solid ;
+	/* border-image: url(../../img/stayl/line.gif) 25 25 25 25 round ; */
+}
+.content .img-sur{
+	/* position: fixed; */
+	
+}
+
+/* --------------------------------------- */
+.footer {
+	height: auto;
+	text-align: center;
+}
+.footer div{
+	justify-content: center;
+	margin: 20px;
+	font-size: 12px;
+	column-gap: 12px;
+	margin: 10px ;
+	padding: 0;
+}
+.footer div p{
+	margin: 0px;
+}
